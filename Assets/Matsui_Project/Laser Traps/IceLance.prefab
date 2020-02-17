@@ -4706,7 +4706,7 @@ GameObject:
   - component: {fileID: 4724240875058453189}
   m_Layer: 0
   m_Name: IceLance
-  m_TagString: Untagged
+  m_TagString: lasertraps
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

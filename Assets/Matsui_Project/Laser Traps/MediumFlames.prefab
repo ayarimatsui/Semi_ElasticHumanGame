@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 1622883129816595016}
   m_Layer: 0
   m_Name: MediumFlames
-  m_TagString: Untagged
+  m_TagString: lasertraps
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

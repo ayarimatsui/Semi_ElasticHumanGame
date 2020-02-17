@@ -3,7 +3,17 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Walls
+  - button2
+  - Lasers
+  - door
+  - SF_Door
+  - button3
+  - lasers
+  - button1
+  - button4
+  - lasertraps
   layers:
   - Default
   - TransparentFX
