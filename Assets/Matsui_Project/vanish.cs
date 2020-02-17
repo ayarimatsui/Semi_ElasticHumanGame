@@ -5,7 +5,7 @@ using UnityEngine;
 public class vanish : MonoBehaviour
 {
     GameObject button1;　//button1を入れる変数
-    public GameObject lasers;
+    //public GameObject lasers;
     public GameObject particleObject1;
     public GameObject particleObject2;
     public GameObject particleObject_GameOver;
@@ -21,7 +21,7 @@ public class vanish : MonoBehaviour
     {
         //button1の情報を取得
         button1 = GameObject.Find("button1");
-        lasers = GameObject.Find("lasers");
+        //lasers = GameObject.Find("lasers");
         lasertraps = GameObject.Find("lasertraps");
         //button1のSwitch_Flagを取得
         switch_Flag = button1.GetComponent<Switch_Flag>();
