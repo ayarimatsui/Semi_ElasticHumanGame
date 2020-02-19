@@ -27,7 +27,7 @@ public class ElasticArm : MonoBehaviour
         {
           if (frame % 5 == 0)
           {
-              transform.localScale = new Vector3(current_scale.x * (float)1.2, current_scale.y, current_scale.z);
+              transform.localScale = new Vector3(current_scale.x * (float)1.15, current_scale.y, current_scale.z);
           }
           //transform.localScale = new Vector3(scale.x*Mathf.Sin((float)(Mathf.PI/2.0)*current_scale.x/scale.x), 0, 0); //new Vector3((float)1.0 / (total_time * Mathf.Sqrt(scale.x)), 0, 0);//new Vector3(Mathf.Sqrt(scale.x) * Time.deltaTime, 0, 0);//new Vector3(1 * Mathf.Log(Time.deltaTime, Time.deltaTime/1000), 0, 0);
           current_scale = transform.localScale;

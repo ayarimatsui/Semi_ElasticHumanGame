@@ -5,6 +5,7 @@ using UnityEngine;
 public class track_hand : MonoBehaviour
 {
     public GameObject RHand;
+    public float angle;
     // Start is called before the first frame update
     void Start()
     {
@@ -23,7 +24,7 @@ public class track_hand : MonoBehaviour
 
         // ローカル座標を基準に、回転を取得
         Vector3 localAngle = myTransform.localEulerAngles; ;
-        localAngle.x = RHandAngle.x;
+        localAngle.x = RHandAngle.x + angle;
         //.y = RHandAngle.y;
         //localAngle.z = RHandAngle.z;
 
